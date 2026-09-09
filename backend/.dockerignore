@@ -1,0 +1,14 @@
+# Ignore Python cache
+__pycache__
+*.pyc
+
+# Ignore local environments
+venv/
+env/
+
+# Ignore security secrets
+.env
+
+# Ignore local test databases and images
+braintumor.db
+uploads/
